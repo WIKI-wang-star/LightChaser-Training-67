@@ -1,6 +1,13 @@
-# 忽略C语言编译生成的可执行文件
+# 忽略密钥环境文件
+.env
+
+# C编译产物
 *.exe
 *.out
 
-# VSCode配置缓存
+# VSCode缓存
 .vscode/
+
+# Python缓存
+__pycache__/
+*.pyc
